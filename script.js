@@ -16,7 +16,7 @@ function deleteOutput() {
 
 let calculate = 0
 function numbers(num) {
-    calculate += num
     if (document.getElementsByClassName("output-text")[0].innerText.length <= 16)
         document.getElementsByClassName("output-text")[0].innerText += num;
+        calculate += num
 }
