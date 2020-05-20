@@ -1,0 +1,55 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(120deg, #0099ff, #01f55f);
+}
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    height: 80%;
+    width: 350px;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 80vh;
+
+}
+.top-buttons {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.buttons {
+    margin-top: 25%;
+}
+button {
+    text-align: center;
+    font-size: 200%;
+    margin: 8px;
+}
+.numbers {
+    padding: 10;
+}
+
+.output {
+    position: absolute;
+    background-color: gray;
+    align-self: flex-start;
+    margin-top: 20px;
+    height: 50px;
+    width: 320px;
+}
+
+.output-text {
+    margin-top: 1;
+}
